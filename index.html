@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCS10 - JS - 3</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container mx-auto mt-5 p-4">
+        <h4>Nhập 1 số nguyên vào mảng:</h4>
+        <div class="d-flex mt-3">
+            <input type="text" class="form-control" id="num-input">
+            <button class="btn btn-success submit-btn ml-4" onclick="getNum()">Submit</button>
+        </div>
+
+        <div class="result-print mt-4 p-4">
+            <p>Mảng hiện tại: </p>
+            <p>Các số dương trong mảng:</p>
+            <p>Các số âm trong mảng:</p>
+            <p>Số lượng số dương: --- Số lượng số âm: </p>
+            <p>-</p>
+            <p>Tổng các số dương:</p>
+            <p>Số nhỏ nhất:</p>
+            <p>Số dương nhỏ nhất:</p>
+            <p>Số chẵn cuối cùng:</p>
+            <p>Mảng sắp xếp theo thứ tự tăng dần:</p>
+            <p>Số nguyên tố đầu tiên:</p>
+        </div>
+
+        <div class="my-4">
+            <h4>Nhập vào 2 vị trí trong mảng để đổi chỗ cho nhau: <br>(bắt đầu từ vị trí 0)</h4>
+            <div class="index-input d-flex mt-3">
+                <input type="text" class="form-control mr-3" id="first-index">
+                <input type="text" class="form-control mr-3" id="second-index">
+                <button class="btn btn-success submit-btn" onclick="positionSwap()">Submit</button>
+            </div>
+        </div>
+
+        <div class="result-print mt-3 p-3">
+
+        </div>
+
+        <div class="my-4">
+            <h4>Nhập 1 số bất kì cho mảng thứ 2: </h4>
+            <div class="index-input d-flex mt-3">
+                <input type="text" class="form-control mr-3" id="arr-input">
+                <button class="btn btn-success submit-btn" onclick="floatCount()">Submit</button>
+            </div>
+        </div>
+
+        <div class="result-print mt-3 p-3">
+            <p>Mảng hiện tại: </p>
+            <p>Mảng trên có * số nguyên.</p>
+            <p>Các số nguyên trong mảng trên:</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
