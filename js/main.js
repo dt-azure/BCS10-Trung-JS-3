@@ -109,7 +109,7 @@ function positionSwap() {
     arr[firstIndex] = arr[secondIndex];
     arr[secondIndex] = tempNum;
 
-    document.querySelectorAll(".result-print.mt-3")[0].style.display = "block";
+    document.querySelectorAll(".result-print.mt-3")[0].classList.remove("hide");
     document.querySelectorAll(".result-print.mt-3")[0].innerHTML = 
     `
     <p>Mảng ban đầu: <span class="result-style">[${originalArr}]</span></p>

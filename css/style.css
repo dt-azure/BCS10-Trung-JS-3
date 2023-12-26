@@ -43,6 +43,10 @@ p {
     width: 100px;
 }
 
+.hide {
+    display: none;
+}
+
 #arr-input {
     width: 500px;
 }
